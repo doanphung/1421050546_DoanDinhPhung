@@ -16,6 +16,7 @@ import pprint
 import shutil
 import sys
 import traceback
+import libs.nnet3.train.common as common_train_lib
 
 sys.path.insert(0, 'steps')
 import libs.nnet3.train.common as common_train_lib
